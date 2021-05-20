@@ -517,8 +517,8 @@ nav ul{float:left;margin:0;padding:0;list-style:none;text-align:left;-webkit-tra
 nav li{display:inline-block;padding:0 8px;vertical-align:middle}
 nav li a{font-size:13px;font-weight:300;-webkit-transition:all 0.3s;transition:all 0.3s;text-transform:uppercase;color:#fff}
 nav li a.current,nav li a:hover{text-decoration:none;color:#cfcfcf}
-.top-header.after-scroll nav li a{color:rgba(0,0,0,1);}
-.top-header.after-scroll nav li a.current,.top-header.after-scroll nav li a:hover{color:rgba(0,0,0,1);font-weight: bold;}
+.top-header.after-scroll nav li a{color:rgba(0,0,0,0.8);}
+.top-header.after-scroll nav li a.current,.top-header.after-scroll nav li a:hover{color:rgba(0,0,0,1);}
 .right-nav-button{margin:11px 11px 0 0;-webkit-transition:all 0.3s;transition:all 0.3s;opacity:1;display:block}
 .right-nav-button:nth-of-type(1){margin-right:65px}
 .right-nav-button a{font-size:11.7px}
