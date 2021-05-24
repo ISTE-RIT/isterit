@@ -62,7 +62,7 @@
             <div class="st-content">
 
                 <!-- Begin Top Section -->
-<section id="top-section" class="top-section image-section " >
+<section id="top-section" class="top-section image-section " style="background-color: black;">
     <header id="top-header" class="top-header">
     <div class="overlay white-solid"></div>
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
@@ -130,19 +130,17 @@
       </div>
   </div>
 
-  <!-- Left and right controls 
+  <!-- Left and right controls--> 
   <a class="left carousel-control" data-slide="prev" href="#myCarousel">
     <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" data-slide="next" href="#myCarousel">
     <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>-->
+  </a>
 </div>
        
 
-	    <div class="jumbotron text-left" style="padding-top: 0%;">
+	    <div class="text-left" style="padding-left: 3%;">
          
                              
 	        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
@@ -195,7 +193,7 @@
                     
                     
                     <div class="post-body">
-                      <h2 id="rit-students-bagged-prizes-from-iit-kharagpur" style="font-weight: bold;">Scam 2021</h2>
+                      
 
                       <p>A three day innovative online program was conducted by ISTE SC RIT from 3-5 January 2021 and a total of 70 students registered for the first phase of the online program. This event was conducted to find out the innovative ideas that the students come up with and the extent of their imaginations such that they could defend their ideas when faced with formidable questions based on their innovative ideas.</p>
                       <p>The online program was divided into three phases’ alpha, beta and gamma. The initial phase alpha was based on a simple captioning competition in which students were given a bunch of memes and they had to provide an apt caption for those memes, they were judged on the basis of their creativity and imagination. </p>
@@ -205,13 +203,16 @@
                       <p>Event was coordinated successfully by Amar, Vignesh, Sumith, Aneeka, Sidharth and Neha.</p>
                   </div>
 
-              <div id="page-navigation" class="page-navigation">
-                        <div class="next col-xs-6"></div>
-<div class="previous col-xs-6 text-right">
-                            
-                        </div>
+                  <div id="page-navigation" class="page-navigation">
+                    <div class="next col-xs-6">
+                        <a href="https://iste-rit.github.io/isterit/blog/photoshop.html" title="Designing in Photoshop"> &laquo; Designing in Photoshop</a>
                     </div>
-
+                    <div class="previous col-xs-6 text-right">
+                        
+                            <a href="https://iste-rit.github.io/isterit/blog/upitch.html" title="U-Pitch">U-Pitch &raquo;</a>
+                        
+                    </div>
+                </div>
                     
                         <div class="comments">
                              <div id="disqus_thread"></div>
@@ -231,6 +232,12 @@ s.src = 'https://isterit.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
+$(".left").click(function(){
+  $("#myCarousel").carousel("prev");
+});
+$(".right").click(function(){
+  $("#myCarousel").carousel("next");
+});
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                              
@@ -261,13 +268,14 @@ s.setAttribute('data-timestamp', +new Date());
     }
     @media screen and (max-width: 650px) {
         #im{
-            width: 100%;
+            width: auto;
             height: 50vh;
+            margin: auto;
         }
     }
     @media screen and (min-width: 650px){
         #im{
-        width: 60%;
+        width: auto;
         height: 100vh;
         margin: auto;
     }   

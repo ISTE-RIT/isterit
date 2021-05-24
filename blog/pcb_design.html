@@ -64,7 +64,7 @@
             <div class="st-content">
 
                 <!-- Begin Top Section -->
-<section id="top-section" class="top-section image-section " >
+<section id="top-section" class="top-section image-section " style="background-color: black;">
     <header id="top-header" class="top-header">
     <div class="overlay white-solid"></div>
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
@@ -129,23 +129,21 @@
     </div>
   </div>
 
-  <!-- Left and right controls
+  <!-- Left and right controls-->
   <a class="left carousel-control" data-slide="prev" href="#myCarousel">
     <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" data-slide="next" href="#myCarousel">
     <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>-->
+  </a>
 </div>
        
 
-	    <div class="jumbotron text-left" style="padding-top: 0%;">
+	    <div class="text-left" style="padding-left: 3%;">
          
                              
 	        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
-	            <h1 style="font-weight: bold;">PCB_Design</h1>
+	            <h1 style="font-weight: bold;">PCB Design</h1>
 	        </div>
 	    </div>
     </div>
@@ -193,7 +191,6 @@
                     
                     
                     <div class="post-body">
-                      <h2 id="rit-students-bagged-prizes-from-iit-kharagpur" style="font-weight: bold;">PCB-Design</h2>
 
                       <p>If you have ever built a project of your own or a hobby circuit, you know that size of the circuit matters. Then the answer to the problem is PCB.We can’t rely upon bread board for substantially increased number of components and for smaller packaging sizes of Integrated circuits  that’s makes PCB more essential...<br>
                       The <b>Indian Society For Technical Education (ISTE) RIT chapter</b> in keeping with its aim of helping students updated and educated regarding their profession, has arranged </p>
@@ -205,12 +202,16 @@
                       <p>Students were grouped to a team of 3 members each and designed PCB</p>
                   </div>
 
-              <div id="page-navigation" class="page-navigation">
-                        <div class="next col-xs-6"></div>
-<div class="previous col-xs-6 text-right">
-                            
-                        </div>
+                  <div id="page-navigation" class="page-navigation">
+                    <div class="next col-xs-6">
+                        <a href="https://iste-rit.github.io/isterit/blog/state_convention_19.html" title="18th Annual ISTE State Convention "> &laquo; 18th Annual ISTE State Convention</a>
                     </div>
+                    <div class="previous col-xs-6 text-right">
+                        
+                            <a href="https://iste-rit.github.io/isterit/blog/actions_on_google.html" title="Actions on Google">Actions on Google &raquo;</a>
+                        
+                    </div>
+                </div>
 
                     
                         <div class="comments">
@@ -231,6 +232,12 @@ s.src = 'https://isterit.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
+$(".left").click(function(){
+  $("#myCarousel").carousel("prev");
+});
+$(".right").click(function(){
+  $("#myCarousel").carousel("next");
+});
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                              
@@ -261,13 +268,14 @@ s.setAttribute('data-timestamp', +new Date());
     }
     @media screen and (max-width: 650px) {
         #im{
-            width: 100%;
+            width: auto;
             height: 50vh;
+            margin: auto;
         }
     }
     @media screen and (min-width: 650px){
         #im{
-        width: 60%;
+        width: auto;
         height: 100vh;
         margin: auto;
     }   
