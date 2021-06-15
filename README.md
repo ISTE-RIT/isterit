@@ -66,7 +66,7 @@ Quick-start guide is not enough? Checkout [full documentation](https://github.co
 
 
 
-Maintainers: [@abhi1401](https://github.com/abhi1401).
+Maintainers: [@abhi1401](https://github.com/abhi1401),[@jissat](https://github.com/jissat),[@bivin1999](https://github.com/bivin1999).
 
 
 
